@@ -10,4 +10,5 @@ app.listen(port, () => {
   console.log(`App escuchando en http://localhost:${port}`);
 });
 
-module.exports = app;  // Para las pruebas
+module.exports = app;  // Para las pruebas     
+// export the app for testing
