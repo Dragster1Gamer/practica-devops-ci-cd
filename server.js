@@ -15,4 +15,4 @@ if (process.env.NODE_ENV !== 'test') {
 }
 
 module.exports = app;  // Para las pruebas con supertest
-// Fin del archivo server.js
+// Fin del archivo server.js      
