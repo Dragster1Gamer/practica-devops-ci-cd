@@ -26,8 +26,8 @@ jobs:
 
     - name: Construir y subir imagen Docker a Docker Hub
       run: |
-        docker build -t tu-usuario/hola-mundo-app:latest .
-        docker push tu-usuario/hola-mundo-app:latest
+        docker build -t wander14/hola-mundo-app:latest .
+        docker push wander14/hola-mundo-app:latest
 
     - name: Desplegar a Render
       run: |
